@@ -1,0 +1,251 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="LQFP44-0.8-10X10MM">
+<circle x="-5.715" y="5.08" radius="0.381" width="0" layer="21"/>
+<text x="-3.90647" y="6.98763" size="0.889335" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.90616" y="-0.627483" size="0.889543" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="-5.00443" y1="-5.00443" x2="5" y2="5" layer="39"/>
+<wire x1="4.5" y1="5" x2="5" y2="5" width="0.127" layer="21"/>
+<wire x1="5" y1="5" x2="5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-5" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="-5" x2="5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-5" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="-5" y2="-4.5" width="0.127" layer="21"/>
+<text x="-6.51049" y="-5.00807" size="0.610584" layer="21">11</text>
+<text x="-4.50017" y="-6.50025" size="0.609623" layer="21" rot="R90">12</text>
+<text x="5.00756" y="-6.50983" size="0.610522" layer="21" rot="R90">22</text>
+<text x="5.501" y="-5.00091" size="0.609711" layer="21">23</text>
+<text x="5.50175" y="4.50144" size="0.609794" layer="21">33</text>
+<text x="5.00269" y="5.50296" size="0.609928" layer="21" rot="R90">34</text>
+<text x="-4.50475" y="5.50581" size="0.610244" layer="21" rot="R90">44</text>
+<smd name="1" x="-5.7" y="4" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="2" x="-5.7" y="3.2" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="3" x="-5.7" y="2.4" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="4" x="-5.7" y="1.6" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="5" x="-5.7" y="0.8" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="6" x="-5.7" y="0" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="7" x="-5.7" y="-0.8" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="8" x="-5.7" y="-1.6" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="9" x="-5.7" y="-2.4" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="10" x="-5.7" y="-3.2" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="11" x="-5.7" y="-4" dx="0.5" dy="1.9" layer="1" roundness="50" rot="R90"/>
+<smd name="12" x="-4" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="13" x="-3.2" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="14" x="-2.4" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="15" x="-1.6" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="16" x="-0.8" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="17" x="0" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="18" x="0.8" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="19" x="1.6" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="20" x="2.4" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="21" x="3.2" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="22" x="4" y="-5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="23" x="5.7" y="-4" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="24" x="5.7" y="-3.2" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="25" x="5.7" y="-2.4" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="26" x="5.7" y="-1.6" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="27" x="5.7" y="-0.8" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="28" x="5.7" y="0" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="29" x="5.7" y="0.8" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="30" x="5.7" y="1.6" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="31" x="5.7" y="2.4" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="32" x="5.7" y="3.2" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="33" x="5.7" y="4" dx="1.9" dy="0.5" layer="1" roundness="50"/>
+<smd name="34" x="4" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="35" x="3.2" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="36" x="2.4" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="37" x="1.6" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="38" x="0.8" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="39" x="0" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="40" x="-0.8" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="41" x="-1.6" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="42" x="-2.4" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="43" x="-3.2" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+<smd name="44" x="-4" y="5.7" dx="0.5" dy="1.9" layer="1" roundness="50"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MCU-P8X32A-Q44">
+<wire x1="-20.32" y1="-17.78" x2="-20.32" y2="19.2679" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="19.2679" x2="-19.2679" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-19.2679" y1="20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-17.78" x2="-20.32" y2="-17.78" width="0.254" layer="94"/>
+<text x="-22.865" y="22.865" size="1.27028" layer="95">&gt;NAME</text>
+<text x="-25.4437" y="-20.355" size="1.27219" layer="96">&gt;VALUE</text>
+<pin name="P4" x="-22.86" y="12.7" length="short"/>
+<pin name="P5" x="-22.86" y="10.16" length="short"/>
+<pin name="P6" x="-22.86" y="7.62" length="short"/>
+<pin name="BOEN" x="-22.86" y="0" length="short"/>
+<pin name="VSS" x="-22.86" y="2.54" length="short"/>
+<pin name="P7" x="-22.86" y="5.08" length="short"/>
+<pin name="RESN" x="-22.86" y="-2.54" length="short"/>
+<pin name="VDD" x="-22.86" y="-5.08" length="short"/>
+<pin name="P8" x="-22.86" y="-7.62" length="short"/>
+<pin name="P9" x="-22.86" y="-10.16" length="short"/>
+<pin name="P10" x="-22.86" y="-12.7" length="short"/>
+<pin name="P11" x="-12.7" y="-20.32" length="short" rot="R90"/>
+<pin name="P12" x="-10.16" y="-20.32" length="short" rot="R90"/>
+<pin name="P13" x="-7.62" y="-20.32" length="short" rot="R90"/>
+<pin name="P14" x="-5.08" y="-20.32" length="short" rot="R90"/>
+<pin name="P15" x="-2.54" y="-20.32" length="short" rot="R90"/>
+<pin name="VDD@1" x="2.54" y="-20.32" length="short" rot="R90"/>
+<pin name="VSS@1" x="0" y="-20.32" length="short" rot="R90"/>
+<pin name="P16" x="5.08" y="-20.32" length="short" rot="R90"/>
+<pin name="P17" x="7.62" y="-20.32" length="short" rot="R90"/>
+<pin name="P18" x="10.16" y="-20.32" length="short" rot="R90"/>
+<pin name="P19" x="12.7" y="-20.32" length="short" rot="R90"/>
+<pin name="P20" x="22.86" y="-12.7" length="short" rot="R180"/>
+<pin name="P21" x="22.86" y="-10.16" length="short" rot="R180"/>
+<pin name="XI" x="22.86" y="0" length="short" rot="R180"/>
+<pin name="P23" x="22.86" y="-5.08" length="short" rot="R180"/>
+<pin name="VSS@2" x="22.86" y="-2.54" length="short" rot="R180"/>
+<pin name="P22" x="22.86" y="-7.62" length="short" rot="R180"/>
+<pin name="XO" x="22.86" y="2.54" length="short" rot="R180"/>
+<pin name="VDD@2" x="22.86" y="5.08" length="short" rot="R180"/>
+<pin name="P24" x="22.86" y="7.62" length="short" rot="R180"/>
+<pin name="P25" x="22.86" y="10.16" length="short" rot="R180"/>
+<pin name="P26" x="22.86" y="12.7" length="short" rot="R180"/>
+<pin name="P27" x="12.7" y="22.86" length="short" rot="R270"/>
+<pin name="P28" x="10.16" y="22.86" length="short" rot="R270"/>
+<pin name="P29" x="7.62" y="22.86" length="short" rot="R270"/>
+<pin name="P30" x="5.08" y="22.86" length="short" rot="R270"/>
+<pin name="P31" x="2.54" y="22.86" length="short" rot="R270"/>
+<pin name="VSS@3" x="0" y="22.86" length="short" rot="R270"/>
+<pin name="VDD@3" x="-2.54" y="22.86" length="short" rot="R270"/>
+<pin name="P0" x="-5.08" y="22.86" length="short" rot="R270"/>
+<pin name="P1" x="-7.62" y="22.86" length="short" rot="R270"/>
+<pin name="P2" x="-10.16" y="22.86" length="short" rot="R270"/>
+<pin name="P3" x="-12.7" y="22.86" length="short" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCU-P8X32A-Q44(LQFP44)" prefix="U">
+<description>310010129 &lt;a href="https://pricing.snapeda.com/parts/P8X32A-Q44/Parallax%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCU-P8X32A-Q44" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQFP44-0.8-10X10MM">
+<connects>
+<connect gate="G$1" pin="BOEN" pad="6"/>
+<connect gate="G$1" pin="P0" pad="41"/>
+<connect gate="G$1" pin="P1" pad="42"/>
+<connect gate="G$1" pin="P10" pad="11"/>
+<connect gate="G$1" pin="P11" pad="12"/>
+<connect gate="G$1" pin="P12" pad="13"/>
+<connect gate="G$1" pin="P13" pad="14"/>
+<connect gate="G$1" pin="P14" pad="15"/>
+<connect gate="G$1" pin="P15" pad="16"/>
+<connect gate="G$1" pin="P16" pad="19"/>
+<connect gate="G$1" pin="P17" pad="20"/>
+<connect gate="G$1" pin="P18" pad="21"/>
+<connect gate="G$1" pin="P19" pad="22"/>
+<connect gate="G$1" pin="P2" pad="43"/>
+<connect gate="G$1" pin="P20" pad="23"/>
+<connect gate="G$1" pin="P21" pad="24"/>
+<connect gate="G$1" pin="P22" pad="25"/>
+<connect gate="G$1" pin="P23" pad="26"/>
+<connect gate="G$1" pin="P24" pad="31"/>
+<connect gate="G$1" pin="P25" pad="32"/>
+<connect gate="G$1" pin="P26" pad="33"/>
+<connect gate="G$1" pin="P27" pad="34"/>
+<connect gate="G$1" pin="P28" pad="35"/>
+<connect gate="G$1" pin="P29" pad="36"/>
+<connect gate="G$1" pin="P3" pad="44"/>
+<connect gate="G$1" pin="P30" pad="37"/>
+<connect gate="G$1" pin="P31" pad="38"/>
+<connect gate="G$1" pin="P4" pad="1"/>
+<connect gate="G$1" pin="P5" pad="2"/>
+<connect gate="G$1" pin="P6" pad="3"/>
+<connect gate="G$1" pin="P7" pad="4"/>
+<connect gate="G$1" pin="P8" pad="9"/>
+<connect gate="G$1" pin="P9" pad="10"/>
+<connect gate="G$1" pin="RESN" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDD@1" pad="18"/>
+<connect gate="G$1" pin="VDD@2" pad="30"/>
+<connect gate="G$1" pin="VDD@3" pad="40"/>
+<connect gate="G$1" pin="VSS" pad="5"/>
+<connect gate="G$1" pin="VSS@1" pad="17"/>
+<connect gate="G$1" pin="VSS@2" pad="27"/>
+<connect gate="G$1" pin="VSS@3" pad="39"/>
+<connect gate="G$1" pin="XI" pad="28"/>
+<connect gate="G$1" pin="XO" pad="29"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Price" value="None"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/P8X32A-Q44/?ref=eda"/>
+<attribute name="MF" value="Parallax Inc."/>
+<attribute name="Description" value="
+Propeller™ Microcontroller IC 32-Bit 8-Core 80MHz 32KB (32K x 8) ROM 44-LQFP (10x10)
+"/>
+<attribute name="MP" value="P8X32A-Q44"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="Package" value="LQFP-44 Parallax"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
